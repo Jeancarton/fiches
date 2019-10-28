@@ -27,93 +27,202 @@
         </ul>
         <p><strong>A la source logique de la notion d'ensemble : la compréhension et l'étendue d'une notion</strong></p>
         <p>
-            profectae.
+            Au XIXè : théorie des ensembles (Cantor par exemple) : reconstruire de manière unifiée l’ensemble des mathématiques. Au début du XXè : paradoxes ensemblistes : crise des fondements. Plusieurs théories sont sorties de cette crise, notamment l’axiomatique de Zermelo-Fraenkel. Le cours porte sur la théorie des ensembles jusqu’à avant la crise des fondements.<br /><br />
+
+            <strong>Distinction étendue / compréhension dans le domaine des notions et leurs relations</strong><br />
+            L’<em>étendue</em> d’une notion N est la donnée de toutes les notions auxquelles la notion N peut être attribuée. <br />
+            La <em>compréhension</em> d’une notion N est la donnée de toutes les notions qui peuvent être attribués à la notion N.<br />
+
+            <img src="../images/logique-porphyre-1.png">
+
+            Mais existe-t-il des notions individuelles ? L’individu est-il pleinement intelligible ?<br />
+            La méthode dichotomique pour construire les arbres de Porphyre ne contient que des embranchements à deux branches.<br />
+            Pour XX il n’existe pas de forme individuelle. C’est la matière sensible qui individue les substances, c’est le substrat des accidents individuels.<br />
+
+            <img src="../images/logique-porphyre-2.png"> 
+
+            Loi de réciprocité de l’étendue et de la compréhension. En remontant dans l’arbre la compréhension diminue et l’étendue augmente, et en descendant c’est l’inverse. Que se passe-t-il au sommet et en bas de l’arbre ?<br />
+            Il existe une notion au sommet : l’être. Sa compréhension est vide (rien ne se dit de l’être autre que l’être lui-même). <br />
+            Pour Aristote il existe plusieurs notions au sommet, ce sont les <em>catégories</em>, des notions d’étendue maximale et de compréhension minimale. Par exemple la substance, la quantité, la possession, l’action.<br />
+            Existe-t-il des notions individuelles en bas de l’arbre ? Ou ce sont les « espèces dernières », assez précises pour n’avoir aucune étendue ?<br /><br />
+
+            <strong>Distinction étendue / compréhension dans le domaine de la notion de proposition</strong><br />
+
+            <img src="../images/logique-proposition-1.png">
+
+            Une proposition négative sépare le prédicat du sujet.<br />
+            La vérité de S est P : 1/ l’étendue de la notion de S est inclue dans l’étendue de la notion de P ou 2/ la compréhension de P est inclue dans la compréhension de S.<br />
+
+            <img src="../images/logique-chene-arbre.png">
+            
+            <p><strong>Déplacement de cette distinction : l'intension et l'extension</strong></p>
+            <p>
+            L’étendue / compréhension désignent la position d’une notion par rapport à l’ensemble de l’univers. Quel est le minimum à donner pour caractériser la « position logique » d’une notion ?<br />
+
+            L’<strong>intension</strong> est la compréhension définie de la manière suivante : la compréhension d’une notion N, au sens strict, est un ensemble de propriétés caractéristiques qui, jointes ensembles sous la forme d’une définition, fournissent une condition nécessaire et <em>suffisante</em> pour qu’un individu tombe sous cette notion. L’intension correspond à une logique des notions.<br />
+            Par exemple : pour « homme », on se limitera à la compréhension « animal » + « rationnel », inutile de remonter à « être », « substance »…<br />
+            Pour l’étendue, on s’inspire de Leibniz. Comme il est arbitraire de désigner ce qu’il y a juste en-dessous de l’arbre (de « nombre » on peut passer à « nombre pair » + « nombre impair » ou à « nombre premier » + « nombre composé » par exemple), on appelle <strong>extension</strong> l’étendue définie de la manière suivante :<br />
+            On appelle l’étendue d’une notion, dans un sens restreint, la donnée de tous les individus auxquels cette notion s’applique. C’est une logique des individus.<br /><br />
         </p>
-        <p><strong>Déplacement de cette distinction : l'intension et l'extension</strong></p>
-        <p>
-            profectae.
-        </p>
+
         <p><strong>La réciprocité des logiques intensionnelle et extensionnelle en question : la logique leibnizienne des notions</strong></p>
-        <p>
-            profectae.
+        <p>    
+            Si on dit que « tout rieur est homme », peut-on dire que « quelque homme est rieur » ?<br />
+            Non strictement, car imaginons qu’à l’instant t personne ne rit, ou que l’humanité ait été décimée par un cataclysme. Cette réciproque est vraie à condition de se référer à des « hommes possibles » et à des « rieurs possibles ». La logique des individus (extensionnelle) va plutôt à l’encontre de celle d’Aristote. Les lois de la syllogistique, d’une manière générale quand elles sont interprétées en extension, peuvent poser problème sitôt qu’il est permis que certaines notions n’aient aucune extension, c’est-à-dire ne soient applicables à aucun individu.<br /><br />
+
+            Notation de Leibniz<br />
+            A = homme ; B = animal ; C = rationnel ; ∞ = égalité ; . = produit logique<br />
+            A∞B.C<br />
+            Une espère animale, sans dire laquelle : B.X (B est ici un prédicat qui définit la notion B).
         </p>
+            
+        <ul>
+            <li>Tout A est B : tout homme est animal : A∞B.X (ou A∞B.A)</li>
+            <li>Certain A est B : AX∞BY</li>
+            <li>Aucun A n’est B : A∞(non-B).Y</li>
+            <li>Certain A n’est pas B : AX∞(non-B).Y</li>
+        </ul>
+        <p>
+            Règles :
+        </p>
+        <ol>
+            <li>Le produit de deux notions identiques : A.A∞A</li>
+            <li>Le produit est commutatif : A∞B est équivalent à B∞A</li>
+            <li>Remplacement <em>salva veritate</em> : si A∞BC et AD∞E alors BCD∞E (homme∞animal.rationnel et homme.àcheveuxblancs∞vieillard alors animal.rationnel.àcheveuxblancs∞vieillard)</li>
+            <li>Le produit est associatif : si A∞BC et AD∞E alors BE∞AC (si humain∞animal.rationnel et humain.femelle∞femme alors animal.femme∞humain.femelle)</li>
+            <li>On peut remplacer X.Y par Z (à condition que Z soit une nouvelle lettre) AXY devient AZ</li>
+            <li>On peut oublier volontairement une notion et l’égalité reste vraie (passer de AB à AX)</li>
+            <li>Une double négation est une affirmation</li>
+            <li>Une notion contenant implicitement ou explicitement A.(non-A) est un non-être. A ces notions contradictoires on ne peut faire les simplifications type X.Y -> Z</li>
+        </ol>
+        <p>
+            Si on veut garder une réciprocité parfaite entre intension et extension, il faut accepter le fait que l’extension est la collection des individus possibles tombant sous la notion. On ne peut connaître parfaitement les prédicats qui composent l’individu César. C’est une notion contingente dont l’infini n’est connu qu’en Dieu.
+        </p>
+    
+
         <p><strong>Vers l'acceptation d'un saut ontologique entre intension et extension : sens et dénotation de Frege</strong></p>
         <p>
-            profectae.
+            Pour Frege, l’extension d’un concept (= notion) n’est pas nécessairement encore un concept ou une structure arborescente de concepts ni même une collection de concepts individuels comme le dit Leibniz, c’est un <em>ensemble d’objets</em>. (/!\ un objet est ontologiquement différent d’un concept).<br />
+            Le <em>sens</em> d’un concept est défini par la façon dont il est donné au sein de la proposition. La façon dont une expression décrit les objets tombant sous un concept est le sens.<br />
+            Sens / dénotation ne s’appliquent pas tant aux concepts qu’aux expressions linguistiques qui les désignent.<br />
+            La <em>dénotation</em> d’une expression est la portion du monde qu’elle désigne (« actuel président français » pour E. Macron). Le sens d’une expression correspond à la façon dont cette expression renvoie à sa dénotation (ex. « l’étoile du soir » et « l’étoile du matin » renvoient à la même dénotation (planète Vénus), mais pas de la même manière). <br />
+            Deux expressions de même sens ont une même dénotation.<br />
+            Dépendance de la dénotation à l’égard du contenu du monde. Ex. « l’actuel président français » changera de dénotation dans 10 ans. Le sens est affaire purement interne au langage. La dénotation a à voir avec la dimension sémantique du langage.<br /><br />
+
+            Si dans l’expression « Le coquelicot est rouge », on enlève « le coquelicot », on obtient P(_) le prédicat « _est rouge ». C’est une expression insaturée, on peut affecter le prédicat à P(sang), P(coquelicot).<br />
+            Un prédicat n’a pas pour dénotation un objet mais un concept.<br /><br />
+
+            Quelle différence entre intension / extension et sens / dénotation ?<br />
+            Dénotation : individus possibles comme membres de l’extension de la notion. Mais que faut-il associer, chez Frege, à l’intension ? Peut-être le sens mais Frege insiste sur la multiplicité des façons de se donner un objet auquel on se réfère. Alors que chez Aristote par exemple il y a une seule définition de l’homme. L’équivalent frégéen de l’intension est plutôt le concept. Mais les concepts comme les individus ne sont pas du côté du sens mais de la dénotation. Plusieurs expressions mathématiques peuvent dénoter le même objet alors qu’elles ont des sens différents. Il y a un saut ontologique du sens à la dénotation.<br /><br />
+
+            Deux sens d’attribution d’une notion (ou d’un prédicat) : 
         </p>
-        <p><strong>Caractérisation générale de la notion d'ensemble : que sont les individus qui composent les ensembles ?</strong></p>
+        <ul>
+            <li>prédication distributive : appliquer une notion à une autre notion (animal à mammifère, homme…)</li>
+            <li>prédication directe : appliquer une notion à des individus (animal à Socrate, Rantaplan…)</li>
+        </ul>
         <p>
-            profectae.
+            Aristote n’avait pas bien cerné cette distinction. Il attribuait une primauté de l’attribution aux individus par rapport à l’attribution aux espèces. C’était une primauté d’ordre ontologique.<br /><br />
+            Dans une <em>attribution distributive</em>, chacun des individus possède la propriété (ex. « l’homme est bipède » ne veut pas dire que l’humanité possède deux jambes mais que tous les individus homme ont deux jambes).<br />
+            Dans une <em>attribution directe</em> : « Platon est bipède », primauté logique de l’attribution directe. L’attribution distributive n’a de sens que parce que l’attribution directe en est pourvue.<br />
+
+            <img src="../images/logique-symboles-1.png">
+
+            Il existe des prédicats qui s’appliquent à des ensembles (ex. être une espère rare. Cela ne veut pas dire que chaque panda individuellement est rare).<br />
+
+            <img src="../images/logique-nombres-pairs.png">
         </p>
+        
         <p><strong>Caractérisation générale de la notion d'ensemble : quel type de collection est opéré par un ensemble ?</strong></p>
         <p>
-            profectae.
+            Dans une liste les éléments sont ordonnés et peuvent se répéter. Dans une hiérarchie en général les éléments ne se répètent pas.<br /><br />
+
+            L’<em>ensemble</em> est dans une relation d’appartenance  avec ses éléments. Ceux-ci ne sont pas des ensembles mais des individus.
         </p>
+        <ol>
+            <li>L’ensemble est entièrement caractérisé par la donnée de tous ses éléments (principe d’extensionalité)</li>
+            <li>On peut répéter des éléments, cela ne change rien à l’ensemble</li>
+            <li>Il n’y a pas d’ordre</li>
+        </ol>
+        
         <p><strong>De l'usage mathématique de la notion d'ensemble à la notion mathématique d'ensemble (théorie des ensembles)</strong></p>
-        <p>Omniprésence des ensembles en mathématiques</p>
+        
+        
         <p>
-            profectae.
+            La notion d’ensemble en mathématiques peut s’appliquer à :
         </p>
-        <p>Une révolution à la source des mathématiques du continu : la naissance de la physique mathématique</p>
+        <ul>
+            <li>La géométrie (1 ligne est un ensemble composé de parties)</li>
+            <li>L’arithmétique (par exemple sur les nombres premiers en nombre infini) / P(n) = « n est pair ». P est l’extension de la propriété P(n)</li>
+            <li>La physique mathématique : tracés à la règle et au compas depuis les grecs (utilisés également dans la mécanique céleste), puis avènement des fonctions, notamment des fonctions transcendantes comme l’exponentielle</li>
+        </ul>
         <p>
-            profectae.
+            Fin XVII (Leibniz et Newton) : mathématiques du continu : toute la gamme des courbes possibles. Pour l’étude de la nature on a besoin de courbes continues => atteinte de l’état mature des mathématiques du continu au XIX.<br />
+            √2 par exemple peut être approché par une suite de nombres décimaux : 1 ; 1,4 ; 1,41… Les nombres réels sont ainsi vus comme des ensembles de fractions.<br />
+            Une fonction est une corrélation reliant les éléments d’un ensemble aux éléments d’un autre. La notion d’ensemble a permis d’unifier l’ensemble des mathématiques.<br /><br />
+
+            Au XIX on se pose la question si on peut :<br />
+            - caractériser l’ensemble des corrélations possibles (fonctions) par l’ensemble des prédicats mathématiques relationnels possibles. <br />
+            - ou si on doit plutôt qu’un ensemble puisse exister indépendamment d’un prédicat dont il serait l’extension.<br />
+            C’est la question de l’indépendance de l’ensemble par rapport à sa construction logique). Cantor le détaille au XIX dans sa théorie des ensembles. Il découvre qu’il existe une infinité d’infinis différents entre lesquels on construit des relations complexes. Cantor développe une théorie des nombres transfinis et franchit l’interdit aristotélicien qui voulait que l’infini n’existe qu’en puissance et non en acte. Ce sont des interrogations nouvelles pour la philosophie : quelle est la place de l’infini dans la connaissance ? Puis l’arrivée des paradoxes de la théorie des ensembles a suscité une crise des mathématiques.<br />
+            Plusieurs problématiques ont été mises en évidence avec ces réflexions sur les ensembles :
         </p>
-        <p>La constitution de la théorie des ensembles, le transfini et le resurgissement des problématiques philosophiques</p>
-        <p>
-            profectae.
-        </p>
+        <ol>
+            <li>La question de l’unité des mathématiques et d’un fondement commun aux sciences rationnelles</li>
+            <li>La problème de la nature mathématique / logique de la notion d’ensemble</li>
+            <li>Le problème du continu</li>
+            <li>Le problème de l’infini</li>
+            <li>Le problème de la nature de la science mathématique et de son rapport à la nature. L’univers mathématique a-t-il une existence indépendante de nous ?</li>
+
+        </ol>
+
         
         <h3>Chapitre 2 - Les opérations booléennes, les lois formelles ensemblistes, et les liens avec les calculs logiques (des propositions/des prédicats)</h3>
         <p>
-            profectae.
+            Lien entre théorie des ensembles et domaine de la logique.<br />
+            <em>Caractère formel de la notion d’ensemble</em> (ne regarde pas la nature mais la forme commune d’objets très différents). Analyse des structures <em>internes</em> aux propositions, structures s’expriment par des objets, prédicats… indépendamment du fait que ces objets viennent de l’arithmétique ou de la géométrie.<br />
+            <em>Caractère opératoire</em><br /><br />
+
+            Ces deux caractères permettent d’exporter dans la théorie des ensembles les questions de la philosophie logique concernant les lois formelles : 1/ les lois qui régissent l’univers sont-elles des lois de la pensée ? 2/ ou imposées par l’extérieur ? 3/ l’univers des ensembles est-il un choix arbitraire ?
+
         </p>
         <p><strong>Les opérations ensemblistes</strong></p>
-        <p>
-            profectae.
-        </p>
+
         <p><strong>L'union</strong></p>
         <p>
-            profectae.
+            Permet de respecter le principe d'extensionalité et de lister tous les éléments de AUB : ça définit bien un ensemble.
+            <img src="../images/logique-union.png">
         </p>
+        
         <p><strong>L'intersection</strong></p>
-        <p>
-            profectae.
-        </p>
+        <img src="../images/logique-intersection.png">
+
         <p><strong>Ensemble vide</strong></p>
         <p>
-            profectae.
+            Il existe un (et un seul ensemble) ne contenant aucun élément.
+            <img src="../images/logique-disjoints.png">
         </p>
+        
         <p><strong>La complémentarité</strong></p>
-        <p>
-            profectae.
-        </p>
+        <img src="../images/logique-complementaire.png">
+        <img src="../images/logique-AmoinsB.png">
+        
         <p><strong>Les lois formelles ensemblistes</strong></p>
-        <p>
-            profectae.
-        </p>
+        <img src="../images/logique-lois-formelles.png">
+        
         <p><strong>Conclusion sur les rapports entre la théorie (naïve) des ensembles, le calcul des propositions et le calcul des prédicats</strong></p>
         <p>
-            profectae.
-        </p>
-        
-        
-        
-        <h3>Citations</h3>
-        <p>
-            <em>Amicitia aliarum satietates vetulis debent rerum multos num amicitia digni munus satietates digni quae equis.</em><br />
-            Référence de la citation
+            On passe des connecteurs prépositionnels aux connecteurs ensemblistes en faisant un passage de l'intension à l'extension, par le biais de la relation d'appartenance et de l'opérateur abstracteur. On obtient une intersection ensembliste là où, au niveau intensionnel, on avait une disjonction de propriétés.<br />
+            Le carré aristotelicien : universelle affirmative, universelle négative, particulière affirmative et particulière négative.
+            <img src="../images/logique-hommes-mortels.png">
         </p>
 
         
-        <h3>Réflexions sur le livre (préciser la date)</h3>
+        <h3>Réflexions sur le cours</h3>
         <p>
             2019-05 : Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi. De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus, quo erga nosmet ipsos, alteram, ut nostra in amicos benevolentia illorum erga nos benevolentiae pariter aequaliterque respondeat, tertiam, ut, quanti quisque se ipse facit, tanti fiat ab amicis.
         </p>
-        
-        <h2>Liens vers d'autres livres - Notions</h2>
-        <ul>
-            <li><a href="../index.html">Lien_1</a></li>
-        </ul>
+
         
         <p>
             <a href="../index_philo.html">Retour à l'accueil des fiches philo</a><br />
