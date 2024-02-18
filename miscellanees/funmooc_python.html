@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fiche de lecture</title>
+        <meta name="description" content="fiche de lecture">
+        <link rel="stylesheet" href="../main.css">
+    </head>
+    <body>
+        
+        <h1>PYTHON : DES FONDAMENTAUX AUX CONCEPTS AVANCÉS</h1>
+        <h2>Fun MOOC, 2024</h2>
+        
+        <h3>Semaine 1 - Introduction au MOCC et aux outils Python</h3>
+        <p>
+            <b>1. Organisation du MOOC</b><br />
+            profectae<br />
+            <b>2. Pourquoi Python ?</b><br />
+            profectae<br />
+            <b>3. Interpréteur et IDLE</b><br />
+            profectae<br />
+            <b>4. Les notebooks</b><br />
+            Terminé le 21/12/2023<br />
+            <b>5. Notions de variable, d'objet et typage dynamique</b><br />
+            Le moyen en python de manipuler ces objet, c'est de leur donner un nom par l'intermédiaire de variables. On dit que les variables référencent les objets. Un objet contient des données, il contient également un ensemble de mécanismes qui permettent de manipuler ces données et que l'on appelle méthode. Les objets ont tous un type. Le type est le comportement par défaut qui va être défini pour ces objets. En python le type n'est pas lié à la variable qui référence l'objet mais est lié à l'objet. En fait, Python est un langage que l'on appelle un langage à typage fort, ça veut dire que le typage est lié aux objets et que l'objet va garder le même type durant toute l'exécution du programme. Par contre, la variable, elle, peut référencer des objets qui vont être de type différent en cours d'exécution. <br />
+            Liste des mots-clés qu'on ne peut pas utiliser comme nom de variable : False	await	else	import	pass
+            None	break	except	in	raise
+            True	class	finally	is	return
+            and	continue	for	lambda	try
+            as	def	from	nonlocal	while
+            assert	del	global	not	with
+            async	elif	if	or	yield
+            <br />
+            isinstance(23,int)<br />
+            Renvoie : True<br />
+            type(1)<br />
+            Renvoie : que la class est int<br />
+            <b>6. Les types numériques</b><br />
+            Pour écrire un complexe : 2+4j.<br />
+            2**3 (2 puissance 3)<br/>
+            6/4 renvoie 1.5<br />
+            6//4 renvoie 1 (division euclidienne)<br />
+            6%4 renvoie 2 (reste de la division euclidienne)<br />
+            reponse = input("quel est votre age ? ") => demande à l'utilisateur d'entrer un age.<br />
+            Convertir en int : age = int(reponse).<br/>
+            Pour convertir en une chaine de caractère, on fait str(3264).<br />
+            Une liste peut être panachée : contenir à la fois des entiers, des float et des string.<br />
+            liste = [0, 3, 5]<br />
+            liste [2] renvoie 5.<br />
+            entier %= 5<br />
+            print('modulo 5:', entier)<br />
+            # on importe le module fractions, qui lui-même définit le symbole Fraction<br />
+            from fractions import Fraction<br /><br />
+
+            # et cette fois, les calculs sont exacts, et l'expression retourne bien True<br />
+            Fraction(3, 10) - Fraction(1, 10) == Fraction(2, 10)<br />
+            ET &, OU | et OU exclusif ^.<br />
+            <img src="../images/python_decalage_gauche_droite.png"><br />
+            Fin le 26/12/2023
+        </p>
+        <h3>Semaine 2 - Notions de base pour écrire son premier programme en Python</h3>
+        <p>
+            <b>1. Codage, jeux de caractères et Unicode</b><br />
+            profectae<br />
+            <b>2. Les chaines de caractères</b><br />
+            profectae<br />
+            <b>3. Les séquences</b><br />
+            profectae<br />
+            <b>4. Les listes</b><br />
+            profectae<br />
+            <b>5. Introduction aux tests if et à la syntaxe</b><br />
+            profectae<br />
+            <b>6. Introduction aux boucles for et aux fonctions</b><br />
+            profectae<br />
+            <b>7. Introduction aux compréhensions de listes</b><br />
+            profectae<br />
+            <b>8. Introduction aux boucles for et aux fonctions</b><br />
+            profectae
+        </p>
+        <h3>Semaine 3 - Renforcement des notions de base, références partagées</h3>
+        <p>
+            <b>1. Les fichiers</b><br />
+            profectae<br />
+            <b>2. Les tuples</b><br />
+            profectae<br />
+            <b>3. Tables de hash</b><br />
+            profectae<br />
+            <b>4. Les dictionnaires</b><br />
+            profectae<br />
+            <b>5. Les ensembles</b><br />
+            profectae<br />
+            <b>6. Les exceptions</b><br />
+            profectae<br />
+            <b>7. Les références partagées</b><br />
+            profectae<br />
+            <b>8. Introduction aux classes</b><br />
+            profectae
+        </p>
+        <h3>Semaine 4 - Fonctions et portée des variables</h3>
+        <p>
+            <b>1. Fonctions</b><br />
+            profectae<br />
+            <b>2. Tests if/elif/else et opérateurs booléens</b><br />
+            profectae<br />
+            <b>3. Boucles while</b><br />
+            profectae<br />
+            <b>4. Portée des variables - règmle LEGB</b><br />
+            profectae<br />
+            <b>5. Modification de la portée avec global et nonlocal</b><br />
+            profectae<br />
+            <b>6. Passage d'arguments et appel de fonctions</b><br />
+            profectae
+        </p>
+        <h3>Semaine 5 - Itération, importation et espace de nommage</h3>
+        <p>
+            <b>1. Itérable, itérateur, itération</b><br />
+            profectae<br />
+            <b>2. Objet fonction, fonction lambda, map et filter</b><br />
+            profectae<br />
+            <b>3. Compréhension de listes, sets et dictionnaires</b><br />
+            profectae<br />
+            <b>4. expressions et fonctions génératrices</b><br />
+            profectae<br />
+            <b>5. Modules et espaces de nommage</b><br />
+            profectae<br />
+            <b>6. Processus d'importation des modules</b><br />
+            profectae<br />
+            <b>7. Importation des modules et espaces de nommage</b><br />
+            profectae
+        </p>
+        <h3>Semaine 6 - Conception des classes</h3>
+        <p>
+            <b>1. Classes, instances et méthodes</b><br />
+            profectae<br />
+            <b>2. Méthodes spéciales</b><br />
+            profectae<br />
+            <b>3. Héritage</b><br />
+            profectae<br />
+            <b>4. Héritage multiple et ordre de résolution des attributs</b><br />
+            profectae<br />
+            <b>5. Variables et attributs</b><br />
+            profectae<br />
+            <b>6. Conception d'itérateurs</b><br />
+            profectae<br />
+            <b>7. Conception d'exceptions personnalisées</b><br />
+            profectae<br />
+            <b>8. Conception de context manager</b><br />
+            profectae<br />
+            <b>9. Outils annexes et exos en vrac</b><br />
+            profectae
+        </p>
+        <h3>Semaine 7 - L'écosystème data science Python</h3>
+        <p>
+            <b>1. Présentation générale</b><br />
+            profectae<br />
+            <b>2. Numpy : le type ndarray</b><br />
+            profectae<br />
+            <b>3. Numpy : slicing, reshaping et indexation avancée</b><br />
+            profectae<br />
+            <b>4. Numpy : vectorisation</b><br />
+            profectae<br />
+            <b>5. Numpy : broadcasting</b><br />
+            profectae<br />
+            <b>6. Pandas : introduction aux series et aux index</b><br />
+            profectae<br />
+            <b>7. Pandas : le type DataFrame</b><br />
+            profectae<br />
+            <b>8. Pandas : opérations avancées</b><br />
+            profectae<br />
+            <b>9. Pandas : gestion des dates et des séries temporelles</b><br />
+            profectae<br />
+            <b>10. matplotlib et dataviz</b><br />
+            profectae
+        </p>
+        <h3>Semaine 8 - Programmation asynchrone - asyncio</h3>
+        <p>
+            <b>1. Programmation asynchrone</b><br />
+            profectae<br />
+            <b>2. Quelques exemples simples</b><br />
+            profectae<br />
+            <b>3. asyncio : historique et écosystème</b><br />
+            profectae<br />
+            <b>4. Extensions asynchrones du langage</b><br />
+            profectae<br />
+            <b>5. Coroutines et awaitables</b><br />
+            profectae<br />
+            <b>6. Boucles d'évènements</b><br />
+            profectae<br />
+            <b>7. Tâches et exceptions</b><br />
+            profectae<br />
+            <b>8. La librairie asyncio</b><br />
+            profectae<br />
+            <b>9. Bonnes pratiques</b><br />
+            profectae<br />
+        </p>
+        <h3>Semaine 9 - Sujets avancés</h3>
+        <p>
+            <b>1. Méthodes statiques et de classe</b><br />
+            profectae<br />
+            <b>2. Les décorateurs</b><br />
+            profectae<br />
+            <b>3. Les clôtures de fonctions</b><br />
+            profectae<br />
+            <b>4. Les métaclasses</b><br />
+            profectae<br />
+            <b>5. property et descripteurs</b><br />
+            profectae<br />
+            <b>6. Protocole d'accès aux attributs</b><br />
+            profectae
+        </p>
+        <h3>Résumé</h3>
+        <p>
+            profectae
+        </p>
+        <h3>Résumé</h3>
+        <p>
+            profectae
+        </p>
+        <h3>Résumé</h3>
+        <p>
+            profectae
+        </p>
+
+        <h3>Citations</h3>
+        <p>
+            <em>Amicitia aliarum satietates vetulis debent rerum multos num amicitia digni munus satietates digni quae equis.</em><br />
+            Référence de la citation
+        </p>
+
+        
+        <h3>Réflexions sur le livre (préciser la date)</h3>
+        <p>
+            2019-05 : Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi. De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus, quo erga nosmet ipsos, alteram, ut nostra in amicos benevolentia illorum erga nos benevolentiae pariter aequaliterque respondeat, tertiam, ut, quanti quisque se ipse facit, tanti fiat ab amicis.
+        </p>
+        
+        <h2>Liens vers d'autres livres - Notions</h2>
+        <ul>
+            <li><a href="../index.html">Lien_1</a></li>
+        </ul>
+        
+        <p>
+            <a href="../index.html">Retour à l'accueil</a>
+        </p>
+    </body>
+</html>
